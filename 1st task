@@ -1,0 +1,143 @@
+yum install git java-1.8.0-openjdk maven -y
+    2  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    3  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    4  amazon-linux-extras install java-openjdk11 -y
+    5  yum install jenkins -y
+    6  update-alternatives --config java
+    7  systemctl start jenkins.service
+    8  systemctl status jenkins.service
+    9  systemctl start jenkins.service
+   10  systemctl status jenkins.service
+   11  $ sudo yum install -y gcc-c++ make
+   12  $ curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
+   13  sudo yum install -y gcc-c++ make
+   14  sudo yum install -y nodejs
+   15  yum install docker -y
+   16  systemctl docker start
+   17  systemctl start docker
+   18  systemctl status docker
+   19  sudo yum install -y nodejs
+   20  docker pull node:14
+   21  docker run -it --name my-node-container node:14 bash
+   22  docker run -itd --name my-node-container node:14 bash
+   23  docker run -itd --name my-node-contain node:14 bash
+   24  node -v
+   25  npm -v
+   26  git clone https://github.com/mounishachirapureddy/prj.git
+   27  ls
+   28  hostname -i
+   29  yum install nodejs
+   30  jenkins -version
+   31  systemctl start jenkins
+   32  systemctl status jenkins
+   33  cat /var/lib/jenkins/secrets/initialAdminPassword
+   34  yum install nodejs
+   35  curl -fsSL https://rpm.nodesource.com/setup_16.x | sudo bash -
+   36  sudo yum install -y nodejs
+   37  node -v
+   38  ls
+   39  chmod 777 /var/run/docker.sock
+   40  systemctl docker start
+   41  systemctl start docker
+   42  systemctl status docker
+   43  chmod 777 /var/run/docker.sock
+   44  ls -l /var/run/docker.sock
+   45  systemctl restart docker
+   46  docker build -t client-image .
+   47  ls
+   48  lslss
+   49  cd prj
+   50  ls
+   51  cd client
+   52  docker build -t client-image .
+   53  npm install -g npm@10.2.0
+   54  cd ~
+   55  $ sudo yum install -y nodejs
+   56   sudo yum install -y nodejs
+   57  sudo yum update
+   58  sudo yum install -y curl
+   59  curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+   60  curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
+   61  sudo yum groupinstall -y 'Development Tools'
+   62  sudo yum install -y gcc-c++ make
+   63  curl -o node-v20.8.0.tar.gz https://nodejs.org/dist/v20.8.0/node-v20.8.0.tar.gz
+   64  tar -xzf node-v20.8.0.tar.gz
+   65  cd node-v20.8.0
+   66  ./configure
+   67  make
+   68  sudo make install
+   69   sudo yum install -y nodejs
+   70  cd ~
+   71   sudo yum install -y nodejs
+   72   sudo yum install -y npm
+   73  sudo yum clean all
+   74   sudo yum install -y npm
+   75  du -f
+   76  df -h
+   77  yum install nodejs
+   78  df -h
+   79  yum install nodejs
+   80  df -h
+   81  cd /dev/xvda
+   82  cd /dev/xvda1
+   83  yum install nodejs
+   84  lsblk
+   85  sudo mkfs -t ext4 /dev/xvdX
+   86  sudo mkfs -t ext4 /dev/xvdf
+   87  sudo mkdir /mnt/myvolume
+   88  sudo mount /dev/xvdX /mnt/myvolume
+   89  sudo mount /dev/xvdf /mnt/myvolume
+   90  yum install nodejs
+   91  df -h
+   92  npm -version
+   93  sudo yum install nodejs
+   94  sudo resize2fs /dev/xvdX
+   95  sudo resize2fs /dev/xvdf
+   96  lsblk
+   97  sudo resize2fs /dev/xvda
+   98  sudo resize2fs /dev/xvda1
+   99  ps
+  100  sudo yum list installed
+  101  sudo yum clean all
+  102  sudo yum clean rm -rf /var/cache/yum
+  103  sudo yum clean all
+  104  df -h
+  105  sudo yum clean all
+  106  df -h
+  107  yum install nodejs
+  108  history
+  109  git rm -rf curl -o node-v20.8.0.tar.gz https://nodejs.org/dist/v20.8.0/node-v20.8.0.tar.gz
+  110  rm node-v20.8.0.tar.gz
+  111  df -h
+  112  sudo yum list installed | grep nodejs
+  113  docker ps
+  114  systemctl start docker
+  115  docker ps
+  116  docker ps -a
+  117  docker rm container-name-or-id
+  118  docker rm c80d957fa6b3
+  119  docker rm 91b6afe0d5a7
+  120  df -h
+  121  /
+  122  yum sudo systemctl stop docker
+  123  sudo systemctl stop docker
+  124  sudo yum remove docker
+  125  sudo rm -rf /var/lib/docker
+  126  df -h
+  127  yum install docker -y
+  128  df -h
+  129  systemctl start docker
+  130  df -h
+  131  yum install nodejs
+  132  sudo yum update
+  133  sudo yum install -y gcc-c++ make
+  134  curl -fsSL https://rpm.nodesource.com/setup_14.x | sudo bash -
+  135  sudo yum install -y nodejs
+  136  curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
+  137  systemctl start jenkins.service
+  138  systemctl status jenkins.service
+  139  systemctl start docker
+  140  systemctl status docker
+  141  sudo chmod 777 /var/run/docker.sock
+  142  systemctl start docker
+  143  ls
